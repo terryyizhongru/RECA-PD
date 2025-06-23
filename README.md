@@ -1,5 +1,4 @@
 # RECA-PD
-This repository contains the code for the paper, accepted for the TSD 2025 conference.
 
 This repository contains resources for the paper:
  
