@@ -1,0 +1,11 @@
+index_pos,feature_id,stat_id
+0,average F0,average
+1,std F0,std
+30,average Evoiced,average
+31,std Evoiced,std
+78,Vrate,ratio
+91,average durpause,average
+92,std durpause,std
+97,PVU,ratio
+99,UVU,ratio
+100,VVU,ratio

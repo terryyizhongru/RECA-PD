@@ -1,0 +1,103 @@
+average F0
+std F0
+max F0
+min F0
+skewness F0
+kurtosis F0
+average F0 Tilt
+average F0 MSE
+std F0 Tilt
+std F0 MSE
+max F0 Tilt
+max F0 MSE
+min F0 Tilt
+min F0 MSE
+skewness F0 Tilt
+skewness F0 MSE
+kurtosis F0 Tilt
+kurtosis F0 MSE
+average 1F0
+std 1F0
+max 1F0
+min 1F0
+skewness 1F0
+kurtosis 1F0
+average lastF0
+std lastF0
+max lastF0
+min lastF0
+skewness lastF0
+kurtosis lastF0
+average Evoiced
+std Evoiced
+skewness Evoiced
+kurtosis Evoiced
+average Evoiced Tilt
+std Evoiced Tilt
+skewness Evoiced Tilt
+kurtosis Evoiced Tilt
+average Evoiced MSE
+std Evoiced MSE
+skewness Evoiced MSE
+kurtosis Evoiced MSE
+average 1Evoiced
+std 1Evoiced
+max 1Evoiced
+min 1Evoiced
+skewness 1Evoiced
+kurtosis 1Evoiced
+average lastEvoiced
+std lastEvoiced
+max lastEvoiced
+min lastEvoiced
+skewness lastEvoiced
+kurtosis lastEvoiced
+average Eunvoiced
+std Eunvoiced
+skewness Eunvoiced
+kurtosis Eunvoiced
+average Eunvoiced Tilt
+std Eunvoiced Tilt
+skewness Eunvoiced Tilt
+kurtosis Eunvoiced Tilt
+average Eunvoiced MSE
+std Eunvoiced MSE
+skewness Eunvoiced MSE
+kurtosis Eunvoiced MSE
+average 1Eunvoiced
+std 1Eunvoiced
+max 1Eunvoiced
+min 1Eunvoiced
+skewness 1Eunvoiced
+kurtosis 1Eunvoiced
+average lastEunvoiced
+std lastEunvoiced
+max lastEunvoiced
+min lastEunvoiced
+skewness lastEunvoiced
+kurtosis lastEunvoiced
+Vrate
+average durvoiced
+std durvoiced
+skewness durvoiced
+kurtosis durvoiced
+max durvoiced
+min durvoiced
+average durunvoiced
+std durunvoiced
+skewness durunvoiced
+kurtosis durunvoiced
+max durunvoiced
+min durunvoiced
+average durpause
+std durpause
+skewness durpause
+kurtosis durpause
+max durpause
+min durpause
+PVU
+PU
+UVU
+VVU
+VP
+UP

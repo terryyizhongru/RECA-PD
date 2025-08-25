@@ -1,0 +1,80 @@
+# -- task related
+tasks:
+
+ - name: SUSTAINED-VOWELS
+   features: [articulation, glottal, phonation, prosody]
+
+ - name: WORDS
+   features: [articulation, glottal, phonation, prosody]
+
+ - name: DDK
+   features: [articulation, glottal, phonation, prosody]
+
+ - name: READ
+   features: [articulation, glottal, phonation, prosody]
+
+ - name: SENTENCES
+   features: [articulation, glottal, phonation, prosody]
+
+ - name: READ-TEXT
+   features: [articulation, glottal, phonation, prosody]
+
+ - name: MONOLOGUE
+   features: [articulation, glottal, phonation, prosody]
+
+# -- informed speech features related
+features:
+ - name: articulation
+   input_dim: 4 # (1, 4) <-- (1, 488)
+   toolkit: disvoice
+   metadata: "./metadata/target_disvoice/articulation.csv"
+
+ - name: glottal
+   input_dim: 14 # (1, 14) <-- (1, 36)
+   toolkit: disvoice
+   metadata: "./metadata/target_disvoice/glottal.csv"
+
+ - name: phonation
+   input_dim: 7 # (1, 7) <-- (1, 28)
+   toolkit: disvoice
+   metadata: "./metadata/target_disvoice/phonation.csv"
+
+ - name: prosody
+   input_dim: 10 # (1, 10) <-- (1, 103)
+   toolkit: disvoice
+   metadata: "./metadata/target_disvoice/prosody.csv"
+
+# -- self-supervised speech features related
+ssl_features: wav2vec
+ssl_features_conf:
+  input_dim: 1024 # (T, 1024)
+  layer_id: "layer07"
+
+# -- model architecture related
+model: cross_full
+model_conf:
+  dropout: 0.1
+  num_heads: 1
+  latent_dim: 1024
+
+# -- training settings related
+training_settings:
+  optimizer: 'adamw'
+  scheduler: 'onecycle'
+  anneal_strategy: 'cos'
+  loss_criterion: 'cross_entropy'
+  epochs: 5
+  batch_size: 8
+  accum_grad: 1
+  learning_rate: 0.0004
+  num_workers: 0
+
+# -- task related
+num_classes: 2
+class_names:
+ - HC
+ - PD
+seed: 42
+device: 'cuda'
+dtype: float32
+

@@ -1,0 +1,15 @@
+index_pos,feature_id,stat_id
+0,global average var GCI,average
+1,global average avg NAQ,average
+2,global average std NAQ,average
+3,global average avg QOQ,average
+4,global average std QOQ,average
+7,global average avg HRF,average
+8,global average std HRF,average
+9,global std var GCI,std
+10,global std avg NAQ,std
+11,global std std NAQ,std
+12,global std avg QOQ,std
+13,global std std QOQ,std
+16,global std avg HRF,std
+17,global std std HRF,std

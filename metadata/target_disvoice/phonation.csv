@@ -1,0 +1,8 @@
+index_pos,feature_id,stat_id
+0,average DF0,average
+2,average Jitter,average
+3,average Shimmer,average
+4,average APQ,average
+5,average PPQ,average
+6,average logE,average
+7,std DF0,std

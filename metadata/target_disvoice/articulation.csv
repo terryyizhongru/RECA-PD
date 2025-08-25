@@ -1,0 +1,5 @@
+index_pos,feature_id,stat_id
+116,average F1,avg
+119,average F2,avg
+238,std F1,std
+241,std F2,std
