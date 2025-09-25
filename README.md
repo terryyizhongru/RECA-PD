@@ -119,18 +119,19 @@ If you use this dataset or methods from this project in academic work, please ci
  
 ### 📄 LaTeX (BibTeX)
 ```bibtex
-@misc{zhong2025recapdrobustexplainablecrossattention,
-      title={RECA-PD: A Robust Explainable Cross-Attention Method for Speech-based Parkinson's Disease Classification}, 
-      author={Terry Yi Zhong and Cristian Tejedor-Garcia and Martha Larson and Bastiaan R. Bloem},
-      year={2025},
-      eprint={2507.03594},
-      archivePrefix={arXiv},
-      primaryClass={cs.SD},
-      url={https://arxiv.org/abs/2507.03594}, 
-}
+@inbook{Zhong_2025,
+   title={RECA-PD: A Robust Explainable Cross-Attention Method for Speech-Based Parkinson’s Disease Classification},
+   ISBN={9783032025487},
+   ISSN={1611-3349},
+   url={http://dx.doi.org/10.1007/978-3-032-02548-7_29},
+   DOI={10.1007/978-3-032-02548-7_29},
+   booktitle={Text, Speech, and Dialogue},
+   publisher={Springer Nature Switzerland},
+   author={Zhong, Terry Yi and Tejedor-Garcia, Cristian and Larson, Martha and Bloem, Bastiaan R.},
+   year={2025},
+   month=aug, pages={343–355} }
 ```
 
 ### 📚 APA
-Zhong, T. Y., Tejedor-Garcia, C., Larson, M., & Bloem, B. R. (2025). RECA-PD: A robust explainable cross-attention method for speech-based Parkinson’s disease classification. arXiv. https://arxiv.org/abs/2507.03594
-Accepted at TSD 2025.
+Zhong, T. Y., Tejedor-Garcia, C., Larson, M., & Bloem, B. R. (2025, August). RECA-PD: A Robust Explainable Cross-Attention Method for Speech-based Parkinson’s Disease Classification. In International Conference on Text, Speech, and Dialogue (pp. 343-355). Cham: Springer Nature Switzerland.
 
